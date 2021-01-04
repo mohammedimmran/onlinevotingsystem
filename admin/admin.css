@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.admin_form_parent{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.admin_form_child{
+    width:20vw;
+    height: 50vh;
+}
+@media (max-width: 576px) {
+
+    .admin_form_child{
+        width:50vw;
+        height: 50vh;
+    }
+     
+    
+    }
